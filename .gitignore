@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+English-to-IPA/__pycache__/
+English-to-IPA/.idea
+English-to-IPA/.gitignore

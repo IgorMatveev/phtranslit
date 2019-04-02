@@ -12,4 +12,9 @@ eng_to_rus("The quick brown fox jumped over the lazy dog.")
 'за квик браун факс джампт оувэ за лэйзи дог'
 ```
 
-A list of words `English-to-IPA/eng_to_ipa/resoutces/CMU_source_files/cmudict-0.7b.txt`
+Method works only on 130K words in list `English-to-IPA/eng_to_ipa/resoutces/CMU_source_files/cmudict-0.7b.txt`. If a word isn't in the list, method returns None
+
+```Python
+eng_to_rus("ozon")
+# None
+```
